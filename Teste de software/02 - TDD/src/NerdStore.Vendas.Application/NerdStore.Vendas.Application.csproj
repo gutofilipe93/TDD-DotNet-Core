@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\NerdStore.Core\NerdStore.Core.csproj" />
+    <ProjectReference Include="..\NerdStore.Vendas.Domain\NerdStore.Vendas.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fluentvalidation" Version="9.2.2" />
+    <PackageReference Include="mediatr" Version="9.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
